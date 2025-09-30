@@ -15,7 +15,7 @@ return new class extends Migration
             $table->id();
             $table->string('nama',50);
             $table->varchar('lokasi',500);
-            $table->int('kapasitas',10000);
+            $table->varchar('kapasitas',10000);
             $table->timestamps();
         });
     }
